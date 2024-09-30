@@ -1,0 +1,143 @@
+.posts_container {
+    background-color: black;
+    margin-top: 20px;
+    /* max-width: 1460px; */
+    border-radius: 20px;
+    width: 100%;
+    max-width: 1850px;
+    padding: 20px;   
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 2rem;
+    row-gap: 1.8rem;
+}
+
+.post-content{
+    text-decoration: none;
+}
+
+.post-content:hover{
+    text-decoration: none;
+}
+
+.post{
+    cursor: default;
+    padding: 7px;
+    border: 3px solid rgb(0, 0, 0);
+    align-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.title{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.discription{
+    margin-bottom: -20px;
+    color: black;
+    font-size: 0.9rem;
+}
+.img-post{
+    border-radius: 10px;
+    height: 9rem;
+}
+
+.post_thumbnail {
+    overflow: hidden;
+    flex: 1; /* Allows the image to take available space */
+    height: 10rem;
+    width: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.post_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
+.post_author_avatar{
+    border-radius: var(--radius-2);
+    overflow: hidden;
+    aspect-ratio: 1/1;
+    width: 3rem;
+    height: auto;
+}
+
+.post_author-details , h5{
+    /* margin-top: 13px; */
+    padding-top: 13px;
+    color: black;
+    font-size: 0.9rem;
+}
+
+.img-author{
+    margin-top: 10px;
+    width: 2.4rem;
+    height: auto;
+}
+
+.post-author{
+    display: flex;
+    
+    align-items: flex-start;
+}
+
+.category-btn{
+    color: white;
+    background-color: black;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-bottom: 1px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 3px 6px;
+}
+
+.category-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Media Queries for Responsiveness */
+
+
+
+@media (max-width: 1400px) {
+    .posts_container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .posts_container {
+        gap: 2rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .posts_container {
+        grid-template-columns: 1fr;
+    }
+    .post_thumbnail {
+        height: 12rem;
+        width: 12rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .post_thumbnail {
+        height: 10rem;
+        width: 10rem;
+    }
+}
+
+
+

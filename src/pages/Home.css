@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+*{
+    font-family: "Bungee", sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.containerr{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+
+
+.cust-btn{
+    
+    /* border: 3px solid black; */
+    background-color: black;
+    color:white
+}
+
+.cust-btn:hover{
+    /* border: 3px solid black; */
+    color: white;
+    background-color: grey;
+}
+

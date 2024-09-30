@@ -1,0 +1,60 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+*{
+    font-family: "Bungee", sans-serif;
+}
+
+.navbar{
+    font-size: x-large;
+    font-weight: 700;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: black;
+    /* border: 3px solid black; */
+} 
+
+.active{
+    color: gray;
+}
+
+.nav-link{
+    font-size: medium;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transition effects */
+}
+
+.nav-link:hover{
+    color: grey;
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+
+.navbar-brand{
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    text-decoration: none;
+}
+
+.navbar-brand:hover{
+    color: white;
+    
+}
+
+.custom-button{
+    font-size: small;
+    font-style: normal;
+    font-weight: bold;
+    padding: 8px 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.custom-button:hover{
+    background-color: grey;
+}
+
